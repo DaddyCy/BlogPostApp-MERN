@@ -1,0 +1,66 @@
+#title {
+    color: rgb(102, 147, 57);
+    text-decoration:underline;
+}
+.post-img img {
+    width: 100%;
+    height: 300px;
+    padding-left: 50px;
+}
+
+.post-text{
+    font-family: fantasy;
+    font-size: larger;
+    color:rgb(116, 116, 214)
+}
+.link-post{
+    color: rgb(207, 10, 154);
+    text-decoration: none;
+
+} 
+
+.card-post{
+    position: relative;
+    border-left: 2px solid rgb(8, 7, 14);
+    margin-bottom: 50px;
+}
+.card-post::after{
+    content: '';
+    display: block;
+    width: 70%;
+    border-bottom: 2px solid rgb(102, 147, 57); 
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.counterPage{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 2px;
+}
+
+.counterPosts{
+    background-color: rgb(89, 149, 169);
+    font-weight:600;
+    color: rgb(255, 255, 255);
+    margin-top: 2px;
+    margin-left: 10px;
+}
+.btnPrev{ font-weight:600;
+        color: rgb(26, 24, 24);
+}
+.btnNext{ font-weight:600;
+        color: rgb(26, 24, 24);
+}
+
+.setPage{
+    
+    bottom:120px;
+    width: 100%;
+    margin-left: 450px;
+}
+.notPosts{
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
